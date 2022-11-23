@@ -23,3 +23,14 @@
   .cardSpace{
     margin: 100px;
   }
+
+  .list{
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    border-radius: 16px;
+  }
+
+  .list h4{
+    margin-left: 12px;
+  }
