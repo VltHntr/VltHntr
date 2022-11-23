@@ -34,3 +34,15 @@
   .list h4{
     margin-left: 12px;
   }
+
+  .headImpressum{
+    margin: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 16px;
+  }
+
+  .headSpacing{
+    margin-left: 20px;
+  }
