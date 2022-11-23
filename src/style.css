@@ -1,5 +1,25 @@
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.demo-layout-transparent {
+    background: url('../res/header.png') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: rgb(255, 255, 255);
+  }
+
+  .demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../res/header.png') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+
+  .cardSpace{
+    margin: 100px;
+  }
